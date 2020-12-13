@@ -1,0 +1,21 @@
+{
+  "name": "404-page",
+  "version": "1.0.0",
+  "description": "A bare 404 page",
+  "main": "src/index.html",
+  "repository": "https://github.com/iisteev/404-page.git",
+  "author": "iisteev",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "prod": "parcel build src/index.html --public-url='./'",
+    "build": "parcel build src/index.html --public-url='./'"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "autoprefixer": "^9",
+    "parcel-bundler": "^1.12.4",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  }
+}
